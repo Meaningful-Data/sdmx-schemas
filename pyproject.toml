@@ -5,6 +5,19 @@ description = "SDMX schemas for Python"
 authors = ["Francisco Javier Hernandeez del Caño <javier.hernandez@meaningfuldata.eu>"]
 readme = "README.md"
 include = ["sdmxschemas/*"]
+packages = [
+    { include = "sdmxschemas", from = "src/sdmxschemas" }
+]
+keywords = ["sdmx"]
+repository = "https://github.com/Meaningful-Data/sdmx-schemas"
+license = "Apache-2.0"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: Apache Software License",
+    "Typing :: Typed"
+]
 
 [tool.poetry.dependencies]
 python = "^3.8"
