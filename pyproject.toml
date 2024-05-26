@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "sdmx-schemas"
+version = "0.1.0"
+description = "SDMX schemas for Python"
+authors = ["Francisco Javier Hernandeez del Caño <javier.hernandez@meaningfuldata.eu>"]
+readme = "README.md"
+include = ["sdmxschemas/*"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+pytest = "^8.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
