@@ -8,5 +8,6 @@ Included are the following schemas:
 - SDMX-JSON 1.0 Schema
 - SDMX-JSON 2.0 Schema
 - SDMX-ML 1.0 Schema
+- SDMX-ML 2.0 Schema
 - SDMX-ML 2.1 Schema
 - SDMX-ML 3.0 Schema

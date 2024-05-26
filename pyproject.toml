@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "sdmxschemas"
-version = "0.1.0"
+version = "0.2.0"
 description = "SDMX schemas for Python"
 authors = ["Francisco Javier Hernandez del Caño <javier.hernandez@meaningfuldata.eu>"]
 readme = "README.md"
