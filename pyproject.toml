@@ -1,12 +1,11 @@
 [tool.poetry]
-name = "sdmx-schemas"
+name = "sdmxschemas"
 version = "0.1.0"
 description = "SDMX schemas for Python"
-authors = ["Francisco Javier Hernandeez del Caño <javier.hernandez@meaningfuldata.eu>"]
+authors = ["Francisco Javier Hernandez del Caño <javier.hernandez@meaningfuldata.eu>"]
 readme = "README.md"
-include = ["sdmxschemas/*"]
 packages = [
-    { include = "sdmxschemas", from = "src/sdmxschemas" }
+    { include = "sdmxschemas", from = "."}
 ]
 keywords = ["sdmx"]
 repository = "https://github.com/Meaningful-Data/sdmx-schemas"
