@@ -2,7 +2,7 @@ name: Publish package
 
 on:
   release:
-    types: [created]
+    types: [published]
 
   workflow_dispatch:
 
@@ -21,7 +21,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.10"
+          python-version: "3.x"
       - name: Build package
         run: poetry build
       - name: Publish to PyPI

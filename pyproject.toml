@@ -1,29 +1,36 @@
-[tool.poetry]
+[project]
 name = "sdmxschemas"
-version = "0.2.0"
-description = "SDMX schemas for Python"
-authors = ["Francisco Javier Hernandez del Caño <javier.hernandez@meaningfuldata.eu>"]
-readme = "README.md"
-packages = [
-    { include = "sdmxschemas", from = "."}
-]
-keywords = ["sdmx"]
-repository = "https://github.com/Meaningful-Data/sdmx-schemas"
+version = "1.0.0"
+description = "Python wrapper for SDMX Schemas"
 license = "Apache-2.0"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+    {name = "MeaningfulData", email = "info@meaningfuldata.eu"},
+]
+maintainers = [
+    {name = "Francisco Javier Hernandez del Caño", email = "javier.hernandez@meaningfuldata.eu"},
+    {name = "Jose Antonio Franco Martin", email = "jose.franco@meaningfuldata.eu"}
+]
 classifiers = [
-    "Development Status :: 4 - Beta",
+    "Development Status :: 5 - Production/Stable",
     "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
     "Intended Audience :: Science/Research",
-    "License :: OSI Approved :: Apache Software License",
     "Typing :: Typed"
 ]
+keywords = ['sdmx']
+
+[project.urls]
+Repository = "https://github.com/Meaningful-Data/sdmx-schemas"
+MeaningfulData = 'https://www.meaningfuldata.eu/'
+SDMX = 'https://sdmx.org'
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = ">=3.9,<4.0"
 
-[tool.poetry.dev-dependencies]
-pytest = "^8.2.1"
-
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.4"
 
 [build-system]
 requires = ["poetry-core"]
