@@ -32,3 +32,7 @@ SDMX_ML_21_MESSAGE_PATH: Path = SDMX_ML_21_BASE_PATH / "SDMXMessage.xsd"
 # SDMX-ML 3.0 schemas
 SDMX_ML_30_BASE_PATH: Path = Path(__file__).parent / "xml" / "sdmx30"
 SDMX_ML_30_MESSAGE_PATH: Path = SDMX_ML_30_BASE_PATH / "SDMXMessage.xsd"
+
+# SDMX-ML 3.1 schemas
+SDMX_ML_31_BASE_PATH: Path = Path(__file__).parent / "xml" / "sdmx31"
+SDMX_ML_31_MESSAGE_PATH: Path = SDMX_ML_31_BASE_PATH / "SDMXMessage.xsd"
