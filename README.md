@@ -12,4 +12,11 @@ The schemas are provided in the form of JSON Schema files and XSD files.
 - SDMX-ML 3.0 Schema
 - SDMX-ML 3.1 Schema
 
-You may find the original SDMX schemas at the [SDMX website](https://sdmx.org/).
+## Sources
+
+The schemas in this repository are taken from the official SDMX schema publications:
+
+- **SDMX-JSON** — [json.sdmx.org](https://json.sdmx.org/) ([sdmx-twg/sdmx-json](https://github.com/sdmx-twg/sdmx-json))
+- **SDMX-ML** — [xml.sdmx.org](https://xml.sdmx.org/) ([sdmx-twg/sdmx-ml](https://github.com/sdmx-twg/sdmx-ml))
+
+For more information about the SDMX standard, see the [SDMX website](https://sdmx.org/).
