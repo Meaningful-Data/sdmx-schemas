@@ -10,7 +10,6 @@ authors = [
 ]
 maintainers = [
     {name = "Francisco Javier Hernandez del Caño", email = "javier.hernandez@meaningfuldata.eu"},
-    {name = "Jose Antonio Franco Martin", email = "jose.franco@meaningfuldata.eu"}
 ]
 classifiers = [
     "Development Status :: 5 - Production/Stable",
