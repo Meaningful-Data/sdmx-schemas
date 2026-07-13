@@ -15,6 +15,13 @@ SDMX_JSON_20_DATA_PATH: Path = SDMX_JSON_20_BASE_PATH / "sdmx-json-data-schema.j
 SDMX_JSON_20_STRUCTURE_PATH: Path = SDMX_JSON_20_BASE_PATH / "sdmx-json-structure-schema.json"
 SDMX_JSON_20_METADATA_PATH: Path = SDMX_JSON_20_BASE_PATH / "sdmx-json-metadata-schema.json"
 
+# SDMX-JSON 2.1 schemas
+
+SDMX_JSON_21_BASE_PATH: Path = Path(__file__).parent / "json" / "sdmx21"
+SDMX_JSON_21_DATA_PATH: Path = SDMX_JSON_21_BASE_PATH / "sdmx-json-data-schema.json"
+SDMX_JSON_21_STRUCTURE_PATH: Path = SDMX_JSON_21_BASE_PATH / "sdmx-json-structure-schema.json"
+SDMX_JSON_21_METADATA_PATH: Path = SDMX_JSON_21_BASE_PATH / "sdmx-json-metadata-schema.json"
+
 # SDMX-ML 1.0 schemas
 
 SDMX_ML_10_BASE_PATH: Path = Path(__file__).parent / "xml" / "sdmx10"
@@ -37,4 +44,4 @@ SDMX_ML_30_MESSAGE_PATH: Path = SDMX_ML_30_BASE_PATH / "SDMXMessage.xsd"
 SDMX_ML_31_BASE_PATH: Path = Path(__file__).parent / "xml" / "sdmx31"
 SDMX_ML_31_MESSAGE_PATH: Path = SDMX_ML_31_BASE_PATH / "SDMXMessage.xsd"
 
-__version__ = "1.0.0"
+__version__ = "1.1.0"
