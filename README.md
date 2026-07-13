@@ -5,6 +5,7 @@ The schemas are provided in the form of JSON Schema files and XSD files.
 
 - SDMX-JSON 1.0 Schema
 - SDMX-JSON 2.0 Schema
+- SDMX-JSON 2.1 Schema
 - SDMX-ML 1.0 Schema
 - SDMX-ML 2.0 Schema
 - SDMX-ML 2.1 Schema
